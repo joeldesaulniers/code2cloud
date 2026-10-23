@@ -1,6 +1,11 @@
 # code2cloud
 Here's an open source project I built for validating Code-to-Cloud.
 Step-by-step instructions:
+
+Pre-requisites:
+- your AWS account must be successfully connected to CNAPP
+- your VCS must be successfully connected to CNAPP. Ensure that it contains all of the source code from this repo so that the mappings can be produced
+
 1) In AWS, create an S3 bucket in the same Region that you'll be deploying into (example: us-east-1). Ensure the bucket has a globally unique name.
 2) Upload [zipped-code/index.zip](https://github.com/joeldesaulniers/code2cloud/blob/main/zipped-code/index.zip) to the bucket. This is the deployment package.
 3) Deploy a CloudFormation Stack using [CloudFormation/CloudFormation.yml](https://github.com/joeldesaulniers/code2cloud/blob/main/CloudFormation/CloudFormation.yml). Ensure to use the same Region and bucket name from Step 1.
