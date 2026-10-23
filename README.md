@@ -5,7 +5,6 @@ Step-by-step instructions:
 **Pre-requisites**:
 - your AWS account must be successfully connected to CNAPP
 - your VCS must be successfully connected to CNAPP. Ensure that it contains all of the source code from this repo so that the mappings can be produced
-- do not modify the source code or CloudFormation templates before or during deployment
 
 1) In AWS, create an S3 bucket in the same Region that you'll be deploying into (example: us-east-1). Ensure the bucket has a globally unique name.
 2) Upload [zipped-code/index.zip](https://github.com/joeldesaulniers/code2cloud/blob/main/zipped-code/index.zip) to the bucket. This is the deployment package.
