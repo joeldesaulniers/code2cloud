@@ -5,15 +5,17 @@ Parameters:
   EnvironmentType:
     Type: String
     Default: Test
-    Description: The environment name for this function
+    Description: The environment for this function
 
   Lambdaname:
     Type: String
     Default: lambda-code-to-cloud-testing
+    Description: The name for this function
 
   Bucketname:
     Type: String
     Default: enter-a-unique-bucket-name
+    Description: Must be globally unique - don't forget to create the bucket and upload the index.zip file first!
 
 Resources:
   # IAM Role for Lambda execution
