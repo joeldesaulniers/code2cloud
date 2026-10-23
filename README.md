@@ -2,7 +2,7 @@
 Here's an open source project I built for validating Code-to-Cloud.
 Step-by-step instructions:
 
-Pre-requisites:
+**Pre-requisites**:
 - your AWS account must be successfully connected to CNAPP
 - your VCS must be successfully connected to CNAPP. Ensure that it contains all of the source code from this repo so that the mappings can be produced
 
